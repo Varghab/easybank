@@ -1,8 +1,6 @@
 import { Box, Button, Typography } from '@mui/material'
 import React from 'react'
-import HeroBelow from '../assets/images/bg-intro-desktop.svg'
 import HeroUp from '../assets/images/image-mockups.png'
-import HeroBelowMobile from '../assets/images/bg-intro-mobile.svg'
 
 const Hero = () => {
     return (
