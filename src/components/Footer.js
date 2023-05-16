@@ -46,7 +46,7 @@ const Footer = () => {
                 </List>
             </Box>
             <Box >
-                <Button component='button' sx={{borderRadius:'30px', color:'#fff',textTransform:'none',p:'10px 25px',backgroundImage: 'linear-gradient(to right, hsl(136, 65%, 51%) , hsl(192, 70%, 51%))'}}>Request Invite</Button>
+                <Button component='button' sx={{borderRadius:'30px', color:'#fff',textTransform:'none',p:'10px 25px',backgroundImage: 'linear-gradient(to right, hsl(136, 65%, 51%) , hsl(192, 70%, 51%))',':hover':{backgroundImage: 'linear-gradient(to right, hsl(136, 65%, 61%) , hsl(192, 70%, 61%))'}}}>Request Invite</Button>
                 <Typography sx={{color:'#b8b8b8', fontSize:'10px', fontWeight:'300',mt:{md:'2rem',xs:'1rem'}}}>
                 © Copyright.All rights reserved
                 </Typography>
