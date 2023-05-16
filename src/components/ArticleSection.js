@@ -29,10 +29,10 @@ const ArticleSection = () => {
                     <Box sx={{maxWidth:'90%', m:'1rem auto'}}>
                         <Typography sx={{color:'hsl(233, 8%, 62%)', fontSize:'.8rem'}}>By Varghab Shib</Typography>
                         <Typography variant='subtitle1' sx={{lineHeight:'1.3',color:'hsl(233, 26%, 24%)', fontSize:'1.5rem', fontWeight:'300',transitionDuration:'0.2s',':hover':{color:'#23FFB5'}}}>
-                        Varghab talks about love of his life 
+                        Know your money! 
                         </Typography>
                         <Typography variant='subtitle1' sx={{mt:'1rem',color:'hsl(233, 8%, 62%)', fontSize:'1rem', fontWeight:'300'}}>
-                        This article is written just to let everyone know that varghab loves jagriti a lot and...
+                        Our modern web and mobile applications allow you to keep track of your finances wherever you are in the world.
                         </Typography>
                     </Box>
                 </Box>
@@ -60,7 +60,6 @@ const ArticleSection = () => {
                         </Typography>
                     </Box>
                 </Box>
-                 
             </Box>
         </Box>
     )
