@@ -12,8 +12,8 @@ const ArticleSection = () => {
                 <Typography variant='h1' sx={{fontSize:{md:'2.5rem',xs:'2rem', fontWeight:'300', color:'hsl(233, 26%, 24%)', letterSpacing:1}}}>Latest Articles</Typography>
             </Box>
             <Box sx={{display:'flex', gap:2.5,alignItems:{md:'normal',xs:'center', flexWrap:'wrap'}, padding:{md:0,xs:'0 1rem'}, mt:{md:'3rem',xs:'1.2rem'}}}>
-            <Box sx={{ marginInline:'auto',flex:{md:'20%',sm:'40%',xs:'90%'},bgcolor:'#fff', borderRadius:'.6rem'}}>
-                    <Box sx={{display:'block',width:'100%',aspectRatio:'1/0.67',marginInline:{md:'0', xs:'auto'},borderRadius:'.6rem .6rem 0 0'}} component='img' src={CashImage}></Box>
+            <Box component='article' tabIndex='0' sx={{ marginInline:'auto',flex:{md:'20%',sm:'40%',xs:'90%'},bgcolor:'#fff', borderRadius:'.6rem'}}>
+                    <Box sx={{display:'block',width:'100%',aspectRatio:'1/0.67',marginInline:{md:'0', xs:'auto'},borderRadius:'.6rem .6rem 0 0'}} alt='currency' component='img' src={CashImage}></Box>
                     <Box sx={{maxWidth:'90%', m:'1rem auto'}}>
                         <Typography sx={{color:'hsl(233, 8%, 62%)', fontSize:'.8rem'}}>By Clare Robinson</Typography>
                         <Typography variant='subtitle1' sx={{lineHeight:'1.3',color:'hsl(233, 26%, 24%)', fontSize:'1.5rem', fontWeight:'300',transitionDuration:'0.2s',':hover':{color:'#23FFB5'}}}>
@@ -24,8 +24,8 @@ const ArticleSection = () => {
                         </Typography>
                     </Box>
                 </Box>
-                <Box sx={{marginInline:'auto',flex:{md:'20%',sm:'40%',xs:'90%'}, bgcolor:'#fff', borderRadius:'.6rem'}}>
-                    <Box sx={{display:'block',width:'100%',marginInline:{md:'0', xs:'auto'}, borderRadius:'.6rem .6rem 0 0'}} component='img' src={RestaurantImage}></Box>
+                <Box component='article' tabIndex='0' sx={{marginInline:'auto',flex:{md:'20%',sm:'40%',xs:'90%'}, bgcolor:'#fff', borderRadius:'.6rem'}}>
+                    <Box sx={{display:'block',width:'100%',marginInline:{md:'0', xs:'auto'}, borderRadius:'.6rem .6rem 0 0'}} alt='restaurant' component='img' src={RestaurantImage}></Box>
                     <Box sx={{maxWidth:'90%', m:'1rem auto'}}>
                         <Typography sx={{color:'hsl(233, 8%, 62%)', fontSize:'.8rem'}}>By Varghab Shib</Typography>
                         <Typography variant='subtitle1' sx={{lineHeight:'1.3',color:'hsl(233, 26%, 24%)', fontSize:'1.5rem', fontWeight:'300',transitionDuration:'0.2s',':hover':{color:'#23FFB5'}}}>
@@ -36,8 +36,8 @@ const ArticleSection = () => {
                         </Typography>
                     </Box>
                 </Box>
-                <Box sx={{ marginInline:'auto',flex:{md:'20%',sm:'40%',xs:'90%'},bgcolor:'#fff', borderRadius:'.6rem'}}>
-                    <Box sx={{display:'block',width:'100%',marginInline:{md:'0', xs:'auto'}, borderRadius:'.6rem .6rem 0 0'}} component='img' src={FlightImage}></Box>
+                <Box component='article' tabIndex='0' sx={{ marginInline:'auto',flex:{md:'20%',sm:'40%',xs:'90%'},bgcolor:'#fff', borderRadius:'.6rem'}}>
+                    <Box sx={{display:'block',width:'100%',marginInline:{md:'0', xs:'auto'}, borderRadius:'.6rem .6rem 0 0'}} alt='flight' component='img' src={FlightImage}></Box>
                     <Box sx={{maxWidth:'90%', m:'1rem auto'}}>
                         <Typography sx={{color:'hsl(233, 8%, 62%)', fontSize:'.8rem'}}>By Jagriti Debbarma</Typography>
                         <Typography variant='subtitle1' sx={{lineHeight:'1.3',color:'hsl(233, 26%, 24%)', fontSize:'1.5rem', fontWeight:'300',transitionDuration:'0.2s',':hover':{color:'#23FFB5'}}}>
@@ -48,8 +48,8 @@ const ArticleSection = () => {
                         </Typography>
                     </Box>
                 </Box>
-                <Box sx={{ marginInline:'auto',flex:{md:'20%',sm:'40%',xs:'90%'},bgcolor:'#fff', borderRadius:'.6rem'}}>
-                    <Box sx={{display:'block',width:'100%',marginInline:{md:'0', xs:'auto'}, borderRadius:'.6rem .6rem 0 0'}} component='img' src={ConfettiImage}></Box>
+                <Box component='article' tabIndex='0' sx={{ marginInline:'auto',flex:{md:'20%',sm:'40%',xs:'90%'},bgcolor:'#fff', borderRadius:'.6rem'}}>
+                    <Box sx={{display:'block',width:'100%',marginInline:{md:'0', xs:'auto'}, borderRadius:'.6rem .6rem 0 0'}} alt='confetti' component='img' src={ConfettiImage}></Box>
                     <Box sx={{maxWidth:'90%', m:'1rem auto'}}>
                         <Typography sx={{color:'hsl(233, 8%, 62%)', fontSize:'.8rem'}}>By Jagriti Debbarma</Typography>
                         <Typography variant='subtitle1' sx={{lineHeight:'1.3',color:'hsl(233, 26%, 24%)', fontSize:'1.5rem', fontWeight:'300',transitionDuration:'0.2s',':hover':{color:'#23FFB5'}}}>

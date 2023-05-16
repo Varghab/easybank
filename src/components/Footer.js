@@ -10,43 +10,43 @@ import '../App.css'
 
 const Footer = () => {
     return (
-        <Box sx={{maxWidth:'1200px', width:'100%', marginInline:'auto', display:'flex',justifyContent:'space-between',flexDirection:{md:'row',xs:'column'} ,alignItems:'center', gap:{md:15,xs:5}}}>
+        <Box component='footer' sx={{maxWidth:'1200px', width:'100%', marginInline:'auto', display:'flex',justifyContent:'space-between',flexDirection:{md:'row',xs:'column'} ,alignItems:'center', gap:{md:15,xs:5}}}>
             <Box>
-                <Box component='img' src={Logo}></Box>
+                <Box alt='easybank logo' component='img' src={Logo}></Box>
                 <Box sx={{mt:{md:'2.5rem',xs:'2rem'}}}>
-                    <Box component='img' src={FacebookIcon}></Box>
-                    <Box sx={{ml:'.8rem'}} component='img' src={YoutubeIcon}></Box>
-                    <Box sx={{ml:'.8rem'}} component='img' src={InstagramIcon}></Box>
-                    <Box sx={{ml:'.8rem'}} component='img' src={PinterestIcon}></Box>
-                    <Box sx={{ml:'.8rem'}} component='img' src={TwitterIcon}></Box>
+                    <Box alt='facebook icon' tabIndex='0' component='img' src={FacebookIcon}></Box>
+                    <Box alt='youtube icon' tabIndex='0' sx={{ml:'.8rem'}} component='img' src={YoutubeIcon}></Box>
+                    <Box alt='instagram icon' tabIndex='0' sx={{ml:'.8rem'}} component='img' src={InstagramIcon}></Box>
+                    <Box alt='pinterest icon' tabIndex='0' sx={{ml:'.8rem'}} component='img' src={PinterestIcon}></Box>
+                    <Box alt='twitter icon' tabIndex='0' sx={{ml:'.8rem'}} component='img' src={TwitterIcon}></Box>
                 </Box>
             </Box>
             <Box sx={{display:'flex', gap:{md:15,xs:0}, flex:1,flexDirection:{md:'row',xs:'column'}}}>
                 <List sx={{display:'flex', p:0, flexDirection:'column'}}>
                     <ListItem sx={{p:'.2rem'}}>
-                        <ListItemText sx={{color:'#fff',cursor:'pointer',textAlign:{md:'left',xs:'center'},':hover':{color:'hsl(136, 65%, 51%)'}}} primary='About us' />
+                        <ListItemText tabIndex='0' sx={{color:'#fff',cursor:'pointer',textAlign:{md:'left',xs:'center'},':hover':{color:'hsl(136, 65%, 51%)'}}} primary='About us' />
                     </ListItem>
                     <ListItem sx={{p:'.2rem'}}>
-                        <ListItemText sx={{color:'#fff',cursor:'pointer',textAlign:{md:'left',xs:'center'},':hover':{color:'hsl(136, 65%, 51%)'}}} primary='Contact' />
+                        <ListItemText tabIndex='0' sx={{color:'#fff',cursor:'pointer',textAlign:{md:'left',xs:'center'},':hover':{color:'hsl(136, 65%, 51%)'}}} primary='Contact' />
                     </ListItem>
                     <ListItem sx={{p:'.2rem'}}>
-                        <ListItemText sx={{color:'#fff',cursor:'pointer',textAlign:{md:'left',xs:'center'},':hover':{color:'hsl(136, 65%, 51%)'}}} primary='Blog' />
+                        <ListItemText tabIndex='0' sx={{color:'#fff',cursor:'pointer',textAlign:{md:'left',xs:'center'},':hover':{color:'hsl(136, 65%, 51%)'}}} primary='Blog' />
                     </ListItem>
                 </List>
                 <List sx={{display:'flex', p:0, flexDirection:'column'}}>
                     <ListItem sx={{p:'.2rem'}}>
-                        <ListItemText sx={{color:'#fff',cursor:'pointer',textAlign:{md:'left',xs:'center'},':hover':{color:'hsl(136, 65%, 51%)'}}} primary='Careers' />
+                        <ListItemText tabIndex='0' sx={{color:'#fff',cursor:'pointer',textAlign:{md:'left',xs:'center'},':hover':{color:'hsl(136, 65%, 51%)'}}} primary='Careers' />
                     </ListItem>
                     <ListItem sx={{p:'.2rem'}}>
-                        <ListItemText sx={{color:'#fff',cursor:'pointer',textAlign:{md:'left',xs:'center'},':hover':{color:'hsl(136, 65%, 51%)'}}} primary='About' />
+                        <ListItemText tabIndex='0' sx={{color:'#fff',cursor:'pointer',textAlign:{md:'left',xs:'center'},':hover':{color:'hsl(136, 65%, 51%)'}}} primary='About' />
                     </ListItem>
                     <ListItem sx={{p:'.2rem'}}>
-                        <ListItemText sx={{color:'#fff',cursor:'pointer',textAlign:{md:'left',xs:'center'},':hover':{color:'hsl(136, 65%, 51%)'}}} primary='Privacy Policy' />
+                        <ListItemText tabIndex='0' sx={{color:'#fff',cursor:'pointer',textAlign:{md:'left',xs:'center'},':hover':{color:'hsl(136, 65%, 51%)'}}} primary='Privacy Policy' />
                     </ListItem>
                 </List>
             </Box>
             <Box >
-                <Button component='button' sx={{borderRadius:'30px', color:'#fff',textTransform:'none',p:'10px 25px',backgroundImage: 'linear-gradient(to right, hsl(136, 65%, 51%) , hsl(192, 70%, 51%))',':hover':{backgroundImage: 'linear-gradient(to right, hsl(136, 65%, 61%) , hsl(192, 70%, 61%))'}}}>Request Invite</Button>
+                <Button role='button' component='button' sx={{borderRadius:'30px', color:'#fff',textTransform:'none',p:'10px 25px',backgroundImage: 'linear-gradient(to right, hsl(136, 65%, 51%) , hsl(192, 70%, 51%))',':hover':{backgroundImage: 'linear-gradient(to right, hsl(136, 65%, 61%) , hsl(192, 70%, 61%))'}}}>Request Invite</Button>
                 <Typography sx={{color:'#b8b8b8', fontSize:'10px', fontWeight:'300',mt:{md:'2rem',xs:'1rem'}}}>
                 © Copyright.All rights reserved
                 </Typography>

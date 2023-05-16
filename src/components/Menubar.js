@@ -12,12 +12,12 @@ const Menubar = ({toggleMenu, setToggleMenu}) => {
     return (
         <>
             <BackgroundBlur toggleMenu={toggleMenu} setToggleMenu={setToggleMenu} />
-            <Box sx={{bgcolor:'#fff',textAlign:'center',position:'absolute',top:60,right:0,left:0,display:{xs:'flex',md:'none'},overflow:'hidden',gap:2,flexDirection:'column', justifyContent:'center',maxWidth:'1200px', width:'90%',minHeight:'18rem', marginInline:'auto', mt:'1rem', borderRadius:'6px', boxShadow:'0px 40px 100px 0px rgba(47, 47, 47, 0.7)', zIndex:20}}>
-                    <Typography sx={{fontSize:'1.3rem'}}>Home</Typography>
-                    <Typography sx={{fontSize:'1.3rem'}}>About</Typography>
-                    <Typography sx={{fontSize:'1.3rem'}}>Contact</Typography>
-                    <Typography sx={{fontSize:'1.3rem'}}>Blog</Typography>
-                    <Typography sx={{fontSize:'1.3rem'}}>Careers</Typography>
+            <Box role='menubar' sx={{bgcolor:'#fff',textAlign:'center',position:'absolute',top:60,right:0,left:0,display:{xs:'flex',md:'none'},overflow:'hidden',gap:2,flexDirection:'column', justifyContent:'center',maxWidth:'1200px', width:'90%',minHeight:'18rem', marginInline:'auto', mt:'1rem', borderRadius:'6px', boxShadow:'0px 40px 100px 0px rgba(47, 47, 47, 0.7)', zIndex:20}}>
+                    <Typography role='menuitem' sx={{fontSize:'1.3rem'}}>Home</Typography>
+                    <Typography role='menuitem' sx={{fontSize:'1.3rem'}}>About</Typography>
+                    <Typography role='menuitem' sx={{fontSize:'1.3rem'}}>Contact</Typography>
+                    <Typography role='menuitem' sx={{fontSize:'1.3rem'}}>Blog</Typography>
+                    <Typography role='menuitem' sx={{fontSize:'1.3rem'}}>Careers</Typography>
             </Box>
         </>
     )

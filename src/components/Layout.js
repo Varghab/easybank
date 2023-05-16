@@ -11,7 +11,7 @@ import Footer from './Footer'
 
 const Layout = () => {
     return (
-        <Box>
+        <Box component='main'>
             <Box sx={{position:'fixed',bgcolor:'#fff', width:'100%', zIndex:2}}>
                 <Navbar />
             </Box>

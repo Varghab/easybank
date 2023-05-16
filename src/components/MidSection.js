@@ -7,14 +7,14 @@ import OpenApiIcon from '../assets/images/icon-api.svg'
 
 const MidSection = () => {
     return (
-        <Box sx={{maxWidth:'1200px',width:'100%', marginInline:'auto', textAlign:{md:'left',xs:'center'}}}>
+        <Box component='section' sx={{maxWidth:'1200px',width:'100%', marginInline:'auto', textAlign:{md:'left',xs:'center'}}}>
             <Box sx={{maxWidth:'35rem', width:'90%', marginInline:{md:'0',xs:'auto'}}}>
                 <Typography variant='h1' sx={{fontSize:{md:'2.5rem',xs:'2rem', fontWeight:'300', color:'hsl(233, 26%, 24%)'}}}>Why choose Easybank?</Typography>
                 <Typography sx={{color:'hsl(233, 8%, 62%)', mt:'1rem'}} variant='subtitle1'>We leverage Open Banking to turn your bank account into your financial hub. Control your finances like never before.</Typography>
             </Box>
             <Box sx={{mt:'3rem', display:'flex', gap:2.5, flexDirection:{md:'row', xs:'column'}, alignItems:{md:'normal',xs:'center'}}}>
                 <Box sx={{maxWidth:'30rem', width:'90%'}}>
-                    <Box sx={{display:'block',width:'4.5rem',marginInline:{md:'0', xs:'auto'}}} component='img' src={OnlineBankingIcon}></Box>
+                    <Box sx={{display:'block',width:'4.5rem',marginInline:{md:'0', xs:'auto'}}} alt='online banking icon' component='img' src={OnlineBankingIcon}></Box>
                     <Typography variant='subtitle1' sx={{color:'hsl(233, 26%, 24%)', fontSize:'1.5rem', fontWeight:'300', m:'1rem 0'}}>
                         Online Banking
                     </Typography>
@@ -23,7 +23,7 @@ const MidSection = () => {
                     </Typography>
                 </Box>
                 <Box sx={{maxWidth:'30rem', width:'90%'}}>
-                    <Box sx={{display:'block',width:'4.5rem',marginInline:{md:'0', xs:'auto'} }} component='img' src={SimpleBudgetingIcon}></Box>
+                    <Box sx={{display:'block',width:'4.5rem',marginInline:{md:'0', xs:'auto'} }} alt='simple budgeting icon' component='img' src={SimpleBudgetingIcon}></Box>
                     <Typography variant='subtitle1' sx={{color:'hsl(233, 26%, 24%)', fontSize:'1.5rem', fontWeight:'300', m:'1rem 0'}}>
                         Simple Budgeting 
                     </Typography>
@@ -32,7 +32,7 @@ const MidSection = () => {
                     </Typography>
                 </Box>
                 <Box sx={{maxWidth:'30rem', width:'90%'}}>
-                    <Box sx={{display:'block',width:'4.5rem',marginInline:{md:'0', xs:'auto'}}} component='img' src={FastOnboardingIcon}></Box>
+                    <Box sx={{display:'block',width:'4.5rem',marginInline:{md:'0', xs:'auto'}}} alt='fast onboarding icon' component='img' src={FastOnboardingIcon}></Box>
                     <Typography variant='subtitle1' sx={{color:'hsl(233, 26%, 24%)', fontSize:'1.5rem', fontWeight:'300', m:'1rem 0'}}>
                         Fast Onboarding 
                     </Typography>
@@ -41,7 +41,7 @@ const MidSection = () => {
                     </Typography>
                 </Box>
                 <Box sx={{maxWidth:'30rem', width:'90%'}}>
-                    <Box sx={{display:'block',width:'4.5rem',marginInline:{md:'0', xs:'auto'}}} component='img' src={OpenApiIcon}></Box>
+                    <Box sx={{display:'block',width:'4.5rem',marginInline:{md:'0', xs:'auto'}}} alt='open api icon' component='img' src={OpenApiIcon}></Box>
                     <Typography variant='subtitle1' sx={{color:'hsl(233, 26%, 24%)', fontSize:'1.5rem', fontWeight:'300', m:'1rem 0'}}>
                         Open API 
                     </Typography>
